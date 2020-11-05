@@ -1,0 +1,15 @@
+### Added basics schematic diagram shows the connections and components of hardwared circuit.
+
+
+***main components are ***
+
+
+1. Arduino UNO
+
+2. Super-capacitor bank
+
+3. Battery.
+
+4. load.
+
+5.inverter(MOSFETs bridge).
