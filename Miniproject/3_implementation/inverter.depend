@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1604581238 source:c:\users\admin\desktop\testing\inverter\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header/header.h"
+
+1604512638 c:\users\admin\desktop\testing\inverter\header\header.h
+	<stdio.h>
+
+1603011189 source:c:\users\admin\desktop\testing\inverter\src\delay.c
+	"../header/header.h"
+
+1603011196 source:c:\users\admin\desktop\testing\inverter\src\sequence.c
+	"../header/header.h"
+
+1603011189 source:c:\users\admin\desktop\testing\inverter\src\dutycycle.c
+	"../header/header.h"
+
+1603011189 source:c:\users\admin\desktop\testing\inverter\src\error_cal.c
+	"../header/header.h"
+
+1603011189 source:c:\users\admin\desktop\testing\inverter\src\set_iload.c
+	"../header/header.h"
+
+1602941444 source:c:\users\admin\desktop\testing\inverter\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
+1602772375 c:\users\admin\desktop\testing\inverter\unity\unity.h
+	"unity_internals.h"
+
+1603003292 c:\users\admin\desktop\testing\inverter\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1604581687 source:c:\users\admin\desktop\testing\inverter\test\test_inverter.c
+	"../header/header.h"
+	"../unity/unity.h"
+	"../unity/unity_internals.h"
+
