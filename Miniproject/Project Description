@@ -1,0 +1,65 @@
+
+****PROJECT TITLE***** : "Programmable Inverter"
+
+
+
+
+*****PROGRAMMING LANGUAGE*****: "C" (Arduino IDE)
+
+
+
+
+*****DESCRIPTION***** :
+  
+      In case of electrical vehicles using DC motors as a primary drive for motion, 
+      different types of batteries are used. Main concern about batteries is their 
+      lifecycle (charging- discharging) and weight. As weight of batteries is directly 
+      proportional to power output needed from them, it is necessary to develop some alternative
+      or solution on this issue. If we manage to use battery at constant discharging rate, then it
+      will result in better performance, long life of battery and high efficiency. Now in case of 
+      sudden reverse torque on drive, driver motor takes more current than average current. In this
+      case battery supplies the required load current but voltage drops significantly. Here super
+      capacitors come into picture, super capacitor is known for its high energy density and high
+      discharge rate.  If we used super capacitor in controlled discharged mode in parallel with 
+      the battery, then excess load current will be supplied by super capacitor and battery life 
+      will increase. As super capacitors have high price as compared to batteries it is not economical
+      to use it as direct replacement of battery. 
+      
+      
+      
+#  Task:                          function used
+    
+    -> Error calculation  :      float error_cal ()
+    
+    -> Sequence generation   :   void sequence(float m)
+    
+    -> Delay generation    :     void delay (float fraction)
+    
+    -> setting Reference    :    float set_iload (float i)
+    
+    -> Duty cycle calculation :  float Dutycycle (float error)
+    
+    
+    
+# Output:
+
+
+         
+C:\Users\Admin\Desktop\testfolder>gcc -o inverter inverter.c
+
+C:\Users\Admin\Desktop\testfolder>inverter
+iload is: 150.000000                                 //load current
+iconv: 0error is 50.000000iconv: 50.000000           // to be supplied by converter
+duty cycle: 0.500000                                 // dutycycle of converter switches
+delay generated of: 50                               // ontime
+half cycle sequence: 1 1
+delay generated of: 50                               // offtime 
+half cycle sequence: 0 0
+delay generated of: 50                               //ontime
+half cycle sequence: 1 1
+delay generated of: 50                               //offtime
+half cycle sequence: 0 0
+
+C:\Users\Admin\Desktop\testfolder>
+
+    
