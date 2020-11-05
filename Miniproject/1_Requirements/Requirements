@@ -1,0 +1,29 @@
+
+***PROJECT NAME->   "Programmable inverter using c programming."
+
+
+
+***DESCRIPTION->
+               programmable inverter can classified as smart inverter because in uses multiple sensors to check 
+               load parameters. c program calculates dutycycle and controls the its output. smart inverter can be 
+               used in electrical vehicles and various appliances.
+               
+               
+               
+***Requirements->
+
+      
+      **Hardware Requirements->
+        
+        1. Arduino Uno.
+        2. MOSFETs (F495P).
+        3. Opto-coupler.
+        4. Supercapacitor(optional).
+        
+      **Software Requirement->
+        1. Arduino IDE.
+        2. CODE BLOCKS.
+        3. Doxygen.
+        
+        
+        
