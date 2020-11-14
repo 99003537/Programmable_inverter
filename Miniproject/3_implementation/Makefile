@@ -1,5 +1,5 @@
 all: run doc test clean 
-#all: tests
+#all provides sequence of command
 SRC = main.c test/test_inverter.c src/delay.c  src/error_cal.c  src/sequence.c  src/set_iload.c  src/Dutycycle.c unity/unity.c 
 
 #TEST_SRC=main.c test/test_inverter.c src/delay.c  src/error_cal.c  src/sequence.c  src/set_iload.c  src/Dutycycle.c unity/unity.c unity/unity.h unity/unity_internals
